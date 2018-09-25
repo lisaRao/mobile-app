@@ -29,6 +29,13 @@ const config = {
     extensions: ['.web.js', '.mjs', '.js', '.json', '.web.jsx', '.jsx'],
     alias: {
       'react-native': 'react-native-web',
+      'utils': path.resolve(__dirname, 'src/utils'),
+      'routes': path.resolve(__dirname, 'src/routes'),
+      'assets': path.resolve(__dirname, 'src/assets'),
+      'services': path.resolve(__dirname, 'src/services'),
+      'models': path.resolve(__dirname, 'src/models'),
+      'components': path.resolve(__dirname, 'src/components'),
+      'layouts': path.resolve(__dirname, 'src/layouts'),
     },
     plugins: [
       new ModuleScopePlugin(paths.appSrc, [paths.appPackageJson]),
