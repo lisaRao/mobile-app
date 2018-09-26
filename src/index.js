@@ -1,9 +1,10 @@
 import dva from 'dva';
 import { createBrowserHistory as createHistory } from 'history';
-import {Toast} from 'antd-mobile';
-import {ERROR_MSG_DUAATION} from 'utils/constants';
+import { Toast}  from 'antd-mobile';
+import createLoading from 'dva-loading';
+import { ERROR_MSG_DUAATION } from 'utils/constants';
 import 'utils/flexlib';
-import './index.css';
+import './index.less';
 
 const app = dva({
   history: createHistory(),

@@ -2261,6 +2261,12 @@ dva-core@^1.4.0:
     redux-saga "^0.16.0"
     warning "^3.0.0"
 
+dva-loading@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/dva-loading/-/dva-loading-2.0.5.tgz#b9dd0e722f70dcc60f0539d1cc73945432a913ae"
+  dependencies:
+    "@babel/runtime" "7.0.0-beta.46"
+
 dva@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/dva/-/dva-2.4.0.tgz#57a29288dde0163cdaf2a2a955c8ec51cfccdea5"

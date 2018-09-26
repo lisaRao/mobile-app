@@ -13,16 +13,16 @@ function RouterConfig({ history, app}) {
   });
   const Coupon = Dynamic({
     app,
-    models: () => [
-      import('./models/coupon')
-    ],
+    // models: () => [
+    //   import('./models/coupon')
+    // ],
     component: ()=> import('./routes/coupon')
   });
   return (
     <Router history={history}>
       <Switch>
         <Route exact path="/" component={Index} />
-        <Route exact path="/coupon" component={Coupon} />
+        {/* <Route exact path="/coupon" component={Coupon} /> */}
       </Switch>
     </Router>
   );
